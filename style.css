@@ -1,0 +1,26 @@
+#destaque{
+      width: 100%;
+}
+.principal{
+      background: #8B5742;
+}
+h1 {
+      background: #8B5742;
+      text-align: center;
+}
+p {
+   text-align: center;
+} 
+#feedback {
+      font-size: 22px;
+}
+strong em {
+      color: red;
+}
+.diferencial{
+      background: #ffffff;
+}
+.itens {
+      font-size: 20px;
+      font-style: italic;
+}
