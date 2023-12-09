@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   
+   <head>
+      <meta charset="utf-8">
+      <meta author="Sabrina">
+      <title>Fale Conosco - Pet Shop Cão Feliz</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="reset.css">
+   </head>
+   
+   <body>
+      
+      <header>
+         <div class="box">
+
+            <h1>
+               <img width="150px" src="imagens\logo-pet-shop.png" alt="Logo do Pet Shop">
+            </h1>
+
+            <nav>
+               <ul>
+                  <li>
+                     <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                     <a href="servicos.html">Serviços</a>
+                  </li>
+                  <li>
+                     <a href="fale-conosco">Fale Conosco</a>
+                  </li>
+               </ul>
+            </nav>   
+         </div>
+
+      </header>
+
+      <main>
+        <form>
+            <label form="name">Nome:</label>
+            <input type="text" id="name" class="input-text" required>
+
+            <label for="e-mail">E-mail</label>
+            <input type="text" id="e-mail" class="input-text" required>
+
+            <label for="cel">Celular</label>
+            <input type="text" id="cel" class="input-text" required>
+            
+            <label for="message">Mensagens</label>
+            <textarea cols="70" rows="10" id="message" class="input-text"></textarea>
+
+            <fieldset>
+                <legend>Como podemos entrar em contato?</legend>
+                <label for="radio-whatsapp">
+                   <input type="radio" name="contact" id="radio-whatsapp" value="whatsapp" checked>Whatsapp
+                </label>
+
+                <label for="radio-celular">
+                    <input type="radio" name="contact" id="radio-celular" value="celular">Celular
+                </label>
+
+                <label for="radio-email">
+                    <input type="radio" name="contact" id="radio-email" value="e-mail">E-mail
+                </label>
+            </fieldset>
+            <label class="checkboss">
+                <input type="checkbox" id="news" checked>Quero receber e-mails promocionais
+            </label>
+
+            <input type="submit" value="Enviar!" class="enviar">
+
+        </form>
+
+        <table>
+            <tr>
+                <th>Segunda á Sexta</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+            </tr>
+            <tr>
+                <td>6h - 20h</td>
+                <td>10h - 18h</td>
+                <td>12h - 18h</td>
+            </tr>
+        </table>
+
+      </main>
+
+      <footer>
+         <img width="100px" src="imagens\logo-pet-shop.png" alt="Logo do Pet Shop">
+         <p>&copy Copyrigth 2023</p>
+      </footer>
+   </body>
+</html>
